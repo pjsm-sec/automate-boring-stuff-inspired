@@ -13,15 +13,12 @@ def printBoard(board):
 
 def checkWinner(board, player):
     wins = [
-        # horizontais
         ['top-L', 'top-M', 'top-R'],
         ['mid-L', 'mid-M', 'mid-R'],
         ['low-L', 'low-M', 'low-R'],
-        # verticais
         ['top-L', 'mid-L', 'low-L'],
         ['top-M', 'mid-M', 'low-M'],
         ['top-R', 'mid-R', 'low-R'],
-        # diagonais
         ['top-L', 'mid-M', 'low-R'],
         ['top-R', 'mid-M', 'low-L'],
     ]

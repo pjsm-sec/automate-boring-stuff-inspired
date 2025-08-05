@@ -1,0 +1,9 @@
+Shorthand Character Classes in Regular Expressions
+
+* \d : Matches any digit from 0 to 9.
+* \D : Matches any character that is not a digit (0-9).
+* \w : Matches any letter (a-z, A-Z), digit (0-9), or underscore (_). 
+* \W : Matches any character that is not a letter, digit, or underscore.
+* \s : Matches any whitespace character, including spaces, tabs, and newlines.
+        Consider this as matching “space-like” characters.
+* \S : Matches any character that is not a whitespace character (no space, tab, or newline).

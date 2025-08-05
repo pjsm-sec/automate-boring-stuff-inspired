@@ -1,0 +1,19 @@
+### Common Regex Quantifiers and Special Patterns
+
+- `?` → Matches **zero or one** occurrence of the preceding element.
+- `*` → Matches **zero or more** repetitions of the previous group.
+- `+` → Requires **one or more** occurrences of the group before it.
+- `{n}` → Matches **exactly n** repetitions of the previous part.
+- `{n,}` → Matches **n or more** repetitions.
+- `{,m}` → Matches **up to m** repetitions (including zero).
+- `{n,m}` → Matches a range of repetitions — **between n and m**.
+- Adding `?` after a quantifier (e.g., `*?`, `+?`, `{n,m}?`) makes it **non-greedy**, capturing the **smallest possible match**.
+- `^spam` → Ensures the string starts with `"spam"`.
+- `spam$` → Ensures the string ends with `"spam"`.
+- `.` → Matches **any character except a newline**.
+- `\d` → Represents a **digit** (0 through 9).
+- `\w` → Represents a **word character**: letters, digits, or underscore.
+- `\s` → Matches **whitespace** (spaces, tabs, or newlines).
+- `\D`, `\W`, `\S` → Match the **opposite** of `\d`, `\w`, and `\s`, respectively.
+- `[abc]` → Matches **one character from the set** (a, b, or c).
+- `[^abc]` → Matches **any character not in the set** (not a, b, or c).
